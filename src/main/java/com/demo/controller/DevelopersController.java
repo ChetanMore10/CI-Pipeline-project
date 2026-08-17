@@ -13,43 +13,73 @@ public class DevelopersController {
                 <!DOCTYPE html>
                 <html>
                 <head>
-                    <title>AutoPark - Developer 1</title>
+                    <title>Developer 1</title>
                     <style>
                         body {
-                            font-family: Arial;
-                            background: #f0f8ff;
+                            font-family: Arial, sans-serif;
+                            background: #f3e5f5;
                             text-align: center;
                             padding: 50px;
                         }
+
                         .card {
                             background: white;
                             padding: 40px;
-                            border-radius: 15px;
-                            max-width: 600px;
+                            border-radius: 20px;
+                            max-width: 650px;
                             margin: auto;
                             box-shadow: 0 5px 20px rgba(0,0,0,0.2);
                         }
+
                         h1 {
-                            color: #1976d2;
+                            color: #7b1fa2;
                         }
-                        .vehicle {
+
+                        .emoji {
                             font-size: 70px;
+                        }
+
+                        .shayari {
+                            font-size: 20px;
+                            font-style: italic;
+                            line-height: 1.7;
+                            color: #444;
+                        }
+
+                        .success {
+                            color: green;
+                            font-weight: bold;
                         }
                     </style>
                 </head>
+
                 <body>
+
                     <div class="card">
-                        <div class="vehicle">🚗</div>
-                        <h1>Welcome to AutoPark</h1>
-                        <h2>Developer 1</h2>
-                        <p>Vehicle Management Team</p>
-                        <p>
-                            This page is created by Developer 1
-                            for learning CI/CD.
+
+                        <div class="emoji">👨‍💻☕</div>
+
+                        <h1>Developer 1</h1>
+
+                        <p class="shayari">
+                            "Code likha tha simple sa,<br>
+                            Bug ne bana diya emotional sa. 😅<br>
+                            Fix karte-karte raat ho gayi,<br>
+                            Fir bhi developer ki smile nahi gayi! 😂"
                         </p>
+
                         <hr>
-                        <p>✅ API is working successfully!</p>
+
+                        <p>
+                            Welcome to Developer 1 API
+                        </p>
+
+                        <p class="success">
+                            ✅ API is working successfully!
+                        </p>
+
                     </div>
+
                 </body>
                 </html>
                 """;
@@ -62,50 +92,75 @@ public class DevelopersController {
                 <!DOCTYPE html>
                 <html>
                 <head>
-                    <title>AutoPark - Developer 2</title>
+                    <title>Developer 2</title>
                     <style>
                         body {
                             font-family: Arial, sans-serif;
-                            background: #fff3e0;
+                            background: #e3f2fd;
                             text-align: center;
                             padding: 50px;
                         }
+
                         .card {
                             background: white;
                             padding: 40px;
-                            border-radius: 15px;
-                            max-width: 600px;
+                            border-radius: 20px;
+                            max-width: 650px;
                             margin: auto;
                             box-shadow: 0 5px 20px rgba(0,0,0,0.2);
                         }
+
                         h1 {
-                            color: #ef6c00;
+                            color: #1565c0;
                         }
-                        .icon {
+
+                        .emoji {
                             font-size: 70px;
                         }
+
+                        .shayari {
+                            font-size: 20px;
+                            font-style: italic;
+                            line-height: 1.7;
+                            color: #444;
+                        }
+
                         .success {
                             color: green;
                             font-weight: bold;
                         }
                     </style>
                 </head>
+
                 <body>
+
                     <div class="card">
-                        <div class="icon">🅿️</div>
-                        <h1>AutoPark</h1>
-                        <h2>Developer 2 - Parking Management</h2>
-                        <p>Welcome to the Parking Management API.</p>
-                        <p>Developer 2 API is working successfully.</p>
-                        <hr>
-                        <p class="success">
-                            ✅ Parking API is Running
+
+                        <div class="emoji">💻😂</div>
+
+                        <h1>Developer 2</h1>
+
+                        <p class="shayari">
+                            "Git push केला मोठ्या style मध्ये,<br>
+                            CI pipeline आली full speed मध्ये. 🚀<br>
+                            Build झाली तर developer खुश,<br>
+                            Error आला तर म्हणतो — 'Laptop चाच दोष!' 😂"
                         </p>
+
+                        <hr>
+
+                        <p>
+                            Welcome to Developer 2 API
+                        </p>
+
+                        <p class="success">
+                            ✅ API is working successfully!
+                        </p>
+
                     </div>
+
                 </body>
                 </html>
                 """;
     }
-
-
 }
