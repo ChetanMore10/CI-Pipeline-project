@@ -163,4 +163,104 @@ public class DevelopersController {
                 </html>
                 """;
     }
+
+    @GetMapping(value = "/developer3", produces = "text/html")
+    public String developer3Page() {
+
+        return """
+            <!DOCTYPE html>
+            <html>
+            <head>
+                <title>Developer 3</title>
+
+                <style>
+                    body {
+                        font-family: Arial, sans-serif;
+                        background: linear-gradient(135deg, #fce4ec, #e1bee7);
+                        text-align: center;
+                        padding: 50px;
+                    }
+
+                    .card {
+                        background: white;
+                        padding: 45px;
+                        border-radius: 25px;
+                        max-width: 650px;
+                        margin: auto;
+                        box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+                    }
+
+                    .emoji {
+                        font-size: 70px;
+                    }
+
+                    h1 {
+                        color: #c2185b;
+                        font-size: 36px;
+                    }
+
+                    h2 {
+                        color: #7b1fa2;
+                    }
+
+                    .shayari {
+                        font-size: 21px;
+                        line-height: 1.8;
+                        color: #444;
+                        font-style: italic;
+                    }
+
+                    .highlight {
+                        color: #c2185b;
+                        font-weight: bold;
+                    }
+
+                    .success {
+                        color: #2e7d32;
+                        font-weight: bold;
+                        font-size: 18px;
+                    }
+                </style>
+            </head>
+
+            <body>
+
+                <div class="card">
+
+                    <div class="emoji">👨‍💻❤️☕</div>
+
+                    <h1>Developer 3</h1>
+
+                    <h2>Code • Coffee • Confidence 😎</h2>
+
+                    <p class="shayari">
+
+                        "Code मध्ये bugs असले तरी चालतील,<br>
+                        पण <span class="highlight">तुझ्या smile मध्ये bugs नसावेत! 😉</span>
+                        <br><br>
+
+                        Git push करतो रोज,<br>
+                        पण तुझ्या reply ची वाट पाहतो रोज. 😄<br>
+
+                        CI म्हणते — Build Successful! ✅<br>
+                        आणि मन म्हणतं — <span class="highlight">She is Beautiful! ❤️</span>
+
+                    </p>
+
+                    <hr>
+
+                    <p>
+                        Welcome to Developer 3 API 🚀
+                    </p>
+
+                    <p class="success">
+                        ✅ API is working successfully!
+                    </p>
+
+                </div>
+
+            </body>
+            </html>
+            """;
+    }
 }
