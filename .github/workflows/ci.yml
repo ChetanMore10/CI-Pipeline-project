@@ -1,5 +1,7 @@
 name: AutoPark CI
 
+# First CI learning project
+
 on:
   push:
     branches:
