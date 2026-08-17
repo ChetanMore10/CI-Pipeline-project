@@ -2,8 +2,7 @@ name: CI Pipeline Project
 
 on:
   push:
-    branches:
-      - master
+  pull_request:
 
 jobs:
   build:
