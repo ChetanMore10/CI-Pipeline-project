@@ -1,0 +1,14 @@
+package com.demo;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class CiPipelineProjectApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(CiPipelineProjectApplication.class, args);
+        System.err.println("Application Run Successfully..!");
+	}
+
+}
